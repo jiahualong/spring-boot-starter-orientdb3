@@ -1,0 +1,10 @@
+# OrientDB3 配置
+orientdb3:
+  url: remote:localhost:2424
+  db-name: test
+  username: root
+  password: root
+  # 链接池最小值
+  pool_min: 5
+  # 链接值最大值
+  pool-max: 10
